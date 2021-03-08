@@ -14,8 +14,12 @@ namespace RPSRedo
             string playerNameInput = Console.ReadLine();
             playerName = playerNameInput;
             Console.WriteLine("Hello, {0}", playerName);
-            Console.WriteLine("Let's see who goes first.");
-            playerChoice = Console.ReadLine();
+            Console.WriteLine("You ready?");
+            Console.WriteLine("Round {0}"); //round counter?
+            Console.WriteLine("What will you choose? Rock, Paper, Scissors?");
+            string playerChoiceInput = Console.ReadLine();
+            playerChoice = playerChoiceInput;
+            ComputerChoice();
 
             if (playerChoice == "Rock")
             {
@@ -43,18 +47,29 @@ namespace RPSRedo
 
 
         }
-        public void ComputerChoice()
+        public static void ComputerChoice()
         {
             Random computerChoice = new Random();
             int computerChoiceInput;
-            computerChoiceInput = computerChoice.Next(1, 4);
+            computerChoiceInput = computerChoice.Next(1, 3);
 
-            switch (computerChoice)
+            switch (computerChoiceInput)
             {
                 case 1:
                     {
-                        Console.WriteLine("");
+                        Console.WriteLine("Computer Chose: Rock");
                     }
+                    break;
+                case 2:
+                    {
+                        Console.WriteLine("Computer Chose: Paper");
+                    }
+                    break;
+                default:
+                    {
+                        Console.WriteLine("Computer Chose: Scissors");
+                    }
+                    break;
             }
         }
     }
