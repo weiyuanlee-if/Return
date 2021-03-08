@@ -1,0 +1,13 @@
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\bin\Debug\netcoreapp3.1\RPSRedo.exe
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\bin\Debug\netcoreapp3.1\RPSRedo.deps.json
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\bin\Debug\netcoreapp3.1\RPSRedo.runtimeconfig.json
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\bin\Debug\netcoreapp3.1\RPSRedo.runtimeconfig.dev.json
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\bin\Debug\netcoreapp3.1\RPSRedo.dll
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\bin\Debug\netcoreapp3.1\RPSRedo.pdb
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\obj\Debug\netcoreapp3.1\RPSRedo.csprojAssemblyReference.cache
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\obj\Debug\netcoreapp3.1\RPSRedo.AssemblyInfoInputs.cache
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\obj\Debug\netcoreapp3.1\RPSRedo.AssemblyInfo.cs
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\obj\Debug\netcoreapp3.1\RPSRedo.csproj.CoreCompileInputs.cache
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\obj\Debug\netcoreapp3.1\RPSRedo.dll
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\obj\Debug\netcoreapp3.1\RPSRedo.pdb
+C:\Users\mayfl\Documents\GitHub\RPS\RPSRedo\RPSRedo\obj\Debug\netcoreapp3.1\RPSRedo.genruntimeconfig.cache

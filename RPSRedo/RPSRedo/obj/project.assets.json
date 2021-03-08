@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mayfl\\source\\repos\\RPSRedo\\RPSRedo\\RPSRedo.csproj",
+      "projectUniqueName": "C:\\Users\\mayfl\\Documents\\GitHub\\RPS\\RPSRedo\\RPSRedo\\RPSRedo.csproj",
       "projectName": "RPSRedo",
-      "projectPath": "C:\\Users\\mayfl\\source\\repos\\RPSRedo\\RPSRedo\\RPSRedo.csproj",
+      "projectPath": "C:\\Users\\mayfl\\Documents\\GitHub\\RPS\\RPSRedo\\RPSRedo\\RPSRedo.csproj",
       "packagesPath": "C:\\Users\\mayfl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mayfl\\source\\repos\\RPSRedo\\RPSRedo\\obj\\",
+      "outputPath": "C:\\Users\\mayfl\\Documents\\GitHub\\RPS\\RPSRedo\\RPSRedo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
