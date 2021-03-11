@@ -9,17 +9,23 @@ namespace RPSRedo
             #region
             string playerName;
             string playerChoice;
-            int rounds = 0;
+            int rounds = 1;
+            int playerWin = 0;
+            int playerLose = 0;
+            int computerWin = 0;
+            int computerLose = 0;
+            int playersDraw = 0;
 
-            while (rounds > 5)
-            {
+            
                 Console.WriteLine("Let's play Rock, Paper, Scissors! ;)");
                 Console.WriteLine("What is your name?");
                 string playerNameInput = Console.ReadLine();
                 playerName = playerNameInput;
                 Console.WriteLine("Hello, {0}", playerName);
                 Console.WriteLine("You ready?");
-                Console.WriteLine("Round {0}"); //round counter?
+            while (rounds < 6)
+            {
+                Console.WriteLine("Round {0}", rounds); //round counter?
                 Console.WriteLine("What will you choose? Rock, Paper, Scissors?");
                 string playerChoiceInput = Console.ReadLine();
                 playerChoice = playerChoiceInput;
@@ -54,64 +60,59 @@ namespace RPSRedo
                 if (playerChoice == "Paper" && computerChoices[c] == "Paper" || (playerChoice == "Rock" && computerChoices[c] == "Rock" || (playerChoice == "Scissors" && computerChoices[c] == "Scissors")))
                 {
                     Console.WriteLine("Draw!");
+                    rounds += 1;
+                    playersDraw += 1;
+                  
+
                 }
                 if (playerChoice == "Paper" && computerChoices[c] == "Rock" || playerChoice == "Scissors" && computerChoices[c] == "Paper" || playerChoice == "Rock" && computerChoices[c] == "Scissors")
                 {
                     Console.WriteLine("You win!");
+                    rounds += 1;
+                    playerWin += 1;
+                    computerLose -= 1;
+
+
                 }
-                if (computerChoices[c] == "Scissors" && playerChoice == "Paper" || computerChoices[c] == "Rock" && playerChoice == "Scissors" || computerChoices[c] == "Paper" && playerChoice == "Rock")
+                if (computerChoices[c] == "Paper" && playerChoice ==  "Rock" || computerChoices[c] == "Scissors" && playerChoice == "Paper" || computerChoices[c] == "Rock" && playerChoice == "Scissors")
                 {
                     Console.WriteLine("You lose!");
+                    rounds += 1;
+                    computerWin += 1;
+                    playerLose -= 1;
+
+
                 }
-            }
-       
-
-
-            
-            #endregion
-
-         
-            
-
-
+               while (rounds == 6)
+                {
+                    Console.WriteLine("Game over");
+                    if(playerWin == 5)
+                    {
+                        Console.WriteLine("Cheers, you won!");
+                    } else if(playerWin < 5)
+                    {
+                        Console.WriteLine("Bummer, you lost");
+                    }
+                            
+                    break;
                    
+               
 
+                  
+               
 
-
-
-
-
-
-
-
-
+                }
+                #endregion
             }
 
-        /*public static void ComputerChoice()
-        {
-            Random computerChoice = new Random();
-            int computerChoiceInput;
-            computerChoiceInput = computerChoice.Next(1, 3);
 
-            switch (computerChoiceInput)
-            {
-                case 1:
-                    {
-                        Console.WriteLine("Computer Chose: Rock");
-                    }
-                    break;
-                case 2:
-                    {
-                        Console.WriteLine("Computer Chose: Paper");
-                    }
-                    break;
-                default:
-                    {
-                        Console.WriteLine("Computer Chose: Scissors");
-                    }
-                    break;
 
-            }*/
+
+
+
+        }
+
+        
         }
             }
         
