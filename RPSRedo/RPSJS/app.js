@@ -1,4 +1,12 @@
-//let playerName = "";
+//Story JS
+
+//Game JS
+playerHandButton = document.getElementById("your-hand");
+computerHandButton = document.getElementById("uncle-hand");
+yourScoreBoard = document.getElementById("your-score");
+uncleScoreBoard = document.getElementById("uncle-score");
+
+let playerName = ""
 let playerHand;
 let computerHand;
 
